@@ -22,7 +22,14 @@ function setup() {
 	
     createCanvas(windowWidth, windowHeight);
     frameRate(30)
-
+    createLoop({
+        gif: {
+            options: { quality: 5 },
+            fileName: "vilkastakan.gif",
+            startLoop: 1,
+            endLoop: 3,
+        }
+    })
     animLoop.noiseFrequency(0.1)
     background(0)
     
