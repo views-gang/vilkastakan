@@ -1,49 +1,97 @@
-<head>    <script src="./p5.min.js"></script>
-    <script src="./p5.createloop.js"></script> 
- <meta charset="utf-8">
-    <style>body{
-  margin: 0;
-  overflow:hidden;
-  background-color: black;
-}
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="vilka stakan" />
+    <meta name="theme-color" content="#212529"/>
+    <!--<link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" sizes="196x196" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">-->
 
-</style>
-<title>вилкастакан</title>
-</head>
+    <title>vilka stakan</title>
 
-<script type="text/javascript">
+    <link href="https://unpkg.com/nes.css@2.2.1/css/nes.min.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
 
-let img;
-function preload() {
-  img = loadImage('vilkalogo.png');
-}
-var i = 0;
-function setup() {
-	
-    createCanvas(windowWidth, windowHeight);
-    frameRate(30)
-    createLoop({
-        gif: {
-            options: { quality: 5 },
-            fileName: "noiseLoop.gif",
-            startLoop: 1,
-            endLoop: 3,
-            download: true
-        }
-    })
-    animLoop.noiseFrequency(0.1)
-    background(0)
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="vilka stakan" />
+    <meta property="og:url" content="https://vlks.tk/n" />
+    <!--<meta property="og:description" content="NES-style CSS Framework | ファミコン風CSSフレームワーク" />
+    <meta property="og:image" content="https://user-images.githubusercontent.com/5305599/49061716-da649680-f254-11e8-9a89-d95a7407ec6a.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@bc_rikko" />
+    <meta name="twitter:creator" content="@bc_rikko" />
+    <meta name="twitter:image" content="https://user-images.githubusercontent.com/5305599/49061716-da649680-f254-11e8-9a89-d95a7407ec6a.png" />-->
+
     
-}
+  </head>
 
-function draw() {
-		background(0);
-		imageMode(CENTER);
-		image(img, width/2, height/2, 300, 300)
+  <body>
+    <div id="nescss">
+    	<header :class="{ sticky: scrollPos > 50 }">
+        <div class="container">
+          <div class="nav-brand">
+            <a href="https://vlks.tk/n">
+              <h1>vilka stakan</h1>
+            </a>
+            <p>art for coders, code for artists</p>
+          </div>
 
-    translate(width / 2, height / 2)
-    const x = cos(animLoop.theta) * width / 3
-    const y = sin(animLoop.theta) * height / 3
-    image(img, x, y, 150, 150)
-}
-</script>
+          <div class="social-buttons">
+            <p></p>
+            <div class="share">
+              <a href="https://instagram.com/vilkastakan"><i class="nes-icon instagram"></i></a>
+              <a href="https://github.com/vilkastakan"><i class="nes-icon github"></i></a>
+              <a href="https://rocketbank.ru/ktwzk"><i class="nes-icon coin"></i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+
+      <div class="container">
+        <main class="main-content">
+          
+
+          <!-- me -->
+          <section class="topic">
+            <p>hi! i'm doing events for coders and production for artists</p>
+            <p>you can call me Vik. i'm based in Yekaterinburg, Russia and open for projects and collaborations</p>
+            <p>contact me via <a href="instagram.com/vilkastakan">instagram direct</a>, <a href="t.me/vilkastakan">telegram chat</a> or <a href="mailto:vik@vik.wtf">email</a>. also you can <a href="https://rocketbank.ru/ktwzk">insert coin</a></p>
+          </section>
+
+
+          <!-- masks -->
+          <section class="topic">
+            <h2 id="masks"><a href="#masks">#</a>masks</h2>
+            <p>i'm making instagram masks</p>
+            <!--<section class="nes-container with-title"><h3 class="title">showreel</h3></section>-->
+            <p>you can check out my projects at <a href="https://www.instagram.com/vilkastakan/">my instagram</a> (yep, you need to open it in the instagram app). also i've made masks for <a href="https://www.instagram.com/sestrysestry/">CECTPbl band</a></p>
+          </section>
+
+		  <section class="topic">
+            <h2 id="projects"><a href="#projects">#</a>another projects</h2>
+            <p>summer 2019: <a href="https://glitch.com/~clk">CLK — better than Rolex</a></p>
+            <p>2017 – now: <a href="https://hackerdom.ru/">HackerDom</a> team events. <a href="https://ructf.org">RuCTF</a>, <a href="https://RuCTFe.org/">RuCTFE</a>, <a href="https://qctf.ru">QCTF</a> — managment, PR&SMM, design, a lot of other things</p>
+          </section>
+
+
+
+        </main>
+
+        <footer>
+          <p>
+            <span>&copy; 2019</span>
+            Made with love and <a href="https://nostalgic-css.github.io/NES.css/">NES.css</a>
+          </p>
+        </footer>
+
+      
+      </div>
+    </div>
+  </body>
+
+</html>
