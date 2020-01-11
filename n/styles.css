@@ -15,12 +15,15 @@ body {
 	color: white;
 	font-size: 2rem;
 	line-height:1.5;
-	margin: 20px;
 	overflow-x: hidden;
 }
 
 .body {
 	overflow-x: hidden;
+}
+
+p {
+	margin-left: 20px;
 }
 
 h1,h2,h3,h4,h5,h6 {
