@@ -75,6 +75,13 @@ a::after {
 }
 
 
+@media screen and (max-width: 640px) {
+        .logo {
+            display: none;
+        }
+    }
+
+
 .logo {
 	position: fixed;
 	top: 30%;
