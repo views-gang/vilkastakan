@@ -75,14 +75,6 @@ a::after {
 }
 
 
-@media screen and (max-width: 640px) {
-        .logo {
-            display: none;
-        }
-	.blackscreen {
-		display: none;
-	}
-    }
 
 
 .logo {
@@ -119,3 +111,14 @@ i {
 	display: block;
 	height: 100vh;
 }
+
+
+@media screen and (max-width: 640px) {
+        .logo {
+            display: none;
+        }
+	.blackscreen {
+		display: none;
+		height: 0;
+	}
+    }
