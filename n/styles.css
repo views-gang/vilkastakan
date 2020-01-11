@@ -79,6 +79,9 @@ a::after {
         .logo {
             display: none;
         }
+	.blackscreen {
+		display: none;
+	}
     }
 
 
