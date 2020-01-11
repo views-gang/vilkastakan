@@ -19,15 +19,14 @@ body {
 	overflow-x: hidden;
 }
 
-
 h1,h2,h3,h4,h5,h6 {
 	font-style: italic;
 	color: rgba(1,1,1,0);
-	padding-top: 3rem;
-	line-height: 0.5;
+	padding-top: 4rem;
+	line-height: 1.2;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	
+	overflow-x:hidden;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #2B8835;
     margin-left: -75px;
