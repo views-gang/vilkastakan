@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CTF мерч</title>
+		<style type="text/css">@import url('https://rsms.me/inter/inter.css');
+		html { font-family: 'Inter', sans-serif; }
+		@supports (font-variation-settings: normal) {
+		html { font-family: 'Inter var', sans-serif; }
+		}body{margin:40px
+		auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0
+		10px}h1,h2,h3{line-height:1.2}</style>
+	</head>
+	<body>
+		<header><center><img src="./logo.png"></center><h1>Мерч для настоящих <nobr>CTF-модников</nobr> от Вика</h1>
+		<aside>Потому что SMMом много не заработаешь. Для предзаказа пиши в&nbsp;телегу&nbsp;<a href="https://t.me/ktwzk">@ktwzk</a></aside>
+
+		</header>
+		<h2>Вместительная сумка — 1000₽</h2>
+		<img src="./sumka.png" width="100%">
+		<figcaption><small><i>влезет даже 15" ноут, но не носи его в ней, пожалуйста</i></small></figcaption>
+		<p>
+- с логотипом команды — 1200₽<br>
+- вышивка вместо печати — TBA ₽</p>
+		<h2>Статусная кепка — 750₽</h2>
+		<img src="./kepka.png" width="80%">
+		<figcaption><small><i>только без слова Cup и последняя t не будет такой всратой</i></small></figcaption>
+		<p>
+- со всратой t — 1000₽<br>
+- вышивка вместо печати — TBA ₽</p>
+<h2>Термическая кружка — 1500₽</h2>
+		<img src="./kruzhka.png" width="100%">
+		<figcaption><small><i>кружка в итоге может оказаться не совсем такой по виду и объёму</i></small></figcaption>
+		<p>
+- с заменой «coffee» на «tea» — 1300₽<br>
+- металлическая кружка с ручкой — TBA ₽</p>
+<h2>Белая шляпа — 1500₽</h2>
+		<img src="./shlyapa.png" width="100%">
+		<p>предъявителям судимости по 272 УК РФ предоставляется особый инвертированный лот с хорошей скидкой</p>
+
+<h2>Сабмитные штаны — 3500₽</h2>
+		<img src="./shtany.png" width="80%">
+		<figcaption><small><i>ноги в комплект не входят</i></small></figcaption>
+		<p>вышивка, три кармана, новый набор флагов на каждой паре штанов<br>хочу сам себе такие, поэтому найду лучший в мире вариант</p>
+
+<hr>
+
+<h2>А чо по доставке?</h2>
+<p>В&nbsp;Екб&nbsp;&mdash; бесплатный самовывоз или по&nbsp;цене тарифа Доставка в&nbsp;Яндекс. Такси. В&nbsp;Мск и&nbsp;<nobr>Питере-либо</nobr> отправлю лично вам вашей любимой транспортной, либо соберу большую посылку к&nbsp;<nobr>какому-нибудь</nobr> ивенту. Остальные города&nbsp;&mdash; тоже выбирайте свой любимый емс-<nobr>сдэк-диэйчэл-етц</nobr>.</p>
+
+<h2>А чо так дорого?</h2>
+<p>50% прибыли от&nbsp;мерча, который ты&nbsp;заберёшь на&nbsp;RuCTF, уйдёт в&nbsp;бюджет RuCTFE. Вроде копейки, но&nbsp;<nobr>где-то</nobr> поможет. 50% прибыли от&nbsp;мерча, который привезут тебе домой, пойдёт на&nbsp;организацию тренировок C4T BUT S4D. Оставшиеся 50% и&nbsp;там, и&nbsp;там&nbsp;&mdash; это мне, потому что на&nbsp;SMMе соревнований много не&nbsp;заработаешь.</p>
+<p>А ещё эти цены максимально предварительные. Может, что-то подешевеет. А вот штаны могут и подорожать.</p>
+
+<h2>А чо, это все варианты?</h2>
+<p>Ещё есть, конечно. Например, футболка &laquo;Вступить в&nbsp;АРСИБ&raquo; (50% прибыли АРСИБу, 50%&nbsp;&mdash; Восу), штаны Kappa (90% прибыли Никите Сычёву, 10% мне потому что вот так). А&nbsp;ещё я&nbsp;делаю эту страницу впопыхах на&nbsp;волне разговоров про мерч, так что добавлю потом ещё моделей, когда будет время.</p>
+
+<h2>А чо если у меня есть идея?</h2>
+<p>Пиши, комиссию обсудим.</p>
+
+<h2>Как с деньгами-то там?</h2>
+<p>Куда ты звонишь?</p>
+
+<hr>
+<small><p>2020, Вик Котвицкий, <a href="https://hackerdom.ru">Хакердом</a>, подпишись <a href="https://instagram.com/vilkastakan">на&nbsp;мою инсту</a>. Спасибо Даше за&nbsp;убеждение меня сделать предзаказ</p></small>
+	</body></html>
